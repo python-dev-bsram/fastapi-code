@@ -1,4 +1,4 @@
-# FASTAPI Build API + Pydantic + Annotations
+# FASTAPI Build API + Pydantic + Annotations + Pytest
 
 Fastapi is the python webframe work used to develop the microservice apis rapidly. Its build based on starlette restapi architecture. Features of this framework are Automatic Document Generation, Validations , Security and Authentications, Dependency Injections and Supports Modern Python Types.
 
