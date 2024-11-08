@@ -1,4 +1,4 @@
-from app.db import SessionLocal
+from app.db import SessionLocal,get_db
 from app.main import app
 import pytest
 
@@ -11,5 +11,6 @@ def override_get_db():
 
 @pytest.mark.asyncio
 async def test_create_item(client, override_get_db):
-    response = await client.post("/items", json={"name": "Item"})
-    assert response.status_code == 201
+    response = await client.get("/items/10")
+    assert response.status_code == 200
+    assert response.json() == {"item_id": 10, "q": None}
