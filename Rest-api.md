@@ -64,6 +64,8 @@
 ```bash
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiZXhwIjoxNjIzMjQ3OTQwfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
+![carbon](https://github.com/user-attachments/assets/f65366f6-d62d-4092-acea-2e6f302f5dd6)
+
 
 # HTTP Status Codes
 
